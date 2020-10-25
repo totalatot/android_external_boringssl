@@ -299,6 +299,7 @@ cc_library_static {
         "boringssl_defaults",
         "boringssl_flags",
     ],
+    recovery_available: true,
 }
 
 // Common defaults for lib*_fuzz_unsafe. These are unsafe and deterministic
